@@ -37,7 +37,7 @@ weight2 = -1
 bias = -2
 
 
-# set the weights (weight1, weight2) and bias bias to the values that calculate the _NOT_ operation on the second input and ignores the first input
+# set the weights (weight1, weight2) and bias bias to the values that calculate the NOT operation on the second input and ignores the first input
 # Inputs and outputs
 test_inputs = [(0, 0), (0, 1), (1, 0), (1, 1)]
 correct_outputs = [True, False, True, False]
